@@ -11,6 +11,7 @@ int main()
     x2      = NAN;
     printf ("Введите 3 коэффициента квадратного уравнения:\n");
     scanf ("%f %f %f", &a, &b, &c);
+    /// check_input(&a, &b, &c);
     if (is_zero(a)) 
     {
         roots_num = linear_eq(b, c, &x1);

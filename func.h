@@ -13,6 +13,13 @@ int is_zero(float a);
 /// @return calculated discriminant, one number
 float discriminant (float a, float b, float c);
 
+/// @brief check correct input data
+/// @param a first ratio
+/// @param b second ratio
+/// @param c third ratio
+/// @return 1 if ok
+int check_input(float *a, float *b, float *c);
+
 /// @brief solves a quadric equation using function discriminant, roots will be saved in variables x1 and x2 which was given with pointers
 /// @param a first ratio
 /// @param b second ratio
